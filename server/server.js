@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/usuario', (req, res) => {
-  res.json('get Usuario');
+  res.json('get Usuario LOCAL!!!');
 })
 
 app.post('/usuario', (req, res) => {
